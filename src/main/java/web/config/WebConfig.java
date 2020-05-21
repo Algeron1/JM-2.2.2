@@ -66,5 +66,4 @@ public class WebConfig implements WebMvcConfigurer {
     public void addInterceptors(InterceptorRegistry interceptorRegistry) {
         interceptorRegistry.addInterceptor(localeChangeInterceptor());
     }
-
 }

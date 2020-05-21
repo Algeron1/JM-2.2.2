@@ -15,8 +15,8 @@
 <div align="center">
     <table border="1" cellpadding="5">
         <caption><h2><s:message code="head"></s:message></h2></caption>
-        <a href="${pageContext.request.contextPath }/cars?locale=en">English</a> |
-        <a href="${pageContext.request.contextPath }/cars?locale=ru">Русский</a> |
+        <a href="/cars?locale=en">English</a> |
+        <a href="/cars?locale=ru">Русский</a> |
         <tr>
             <th>ID</th>
             <th><s:message code="name"></s:message></th>

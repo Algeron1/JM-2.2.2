@@ -1,11 +1,10 @@
-package hiber.model;
+package web.model;
 
 import javax.persistence.*;
-import java.io.Serializable;
 
 @Entity
 @Table(name = "cars")
-public class Car implements Serializable {
+public class Car {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

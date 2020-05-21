@@ -1,10 +1,10 @@
-package hiber.DAO;
+package web.DAO;
 
-import hiber.model.Car;
-import hiber.util.DBHelper;
+import web.util.DBHelper;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
+import web.model.*;
 
 import java.util.List;
 

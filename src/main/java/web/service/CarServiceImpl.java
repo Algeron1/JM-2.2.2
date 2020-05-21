@@ -1,8 +1,8 @@
-package hiber.service;
+package web.service;
 
-import hiber.DAO.CarDao;
-import hiber.DAO.CarDaoImpl;
-import hiber.model.Car;
+import web.DAO.CarDao;
+import web.DAO.CarDaoImpl;
+import web.model.*;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package hiber.util;
+package web.util;
 
-import hiber.model.Car;
+import web.model.*;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
