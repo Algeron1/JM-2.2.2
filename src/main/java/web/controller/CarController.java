@@ -10,7 +10,7 @@ import web.model.*;
 import java.util.List;
 
 
-@Controller("/cars/*")
+@Controller
 public class CarController {
 
     CarServiceImpl carService = new CarServiceImpl();
@@ -21,4 +21,7 @@ public class CarController {
         model.addAttribute("cars", cars);
         return "cars";
     }
+
+
+
 }
