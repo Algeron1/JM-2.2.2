@@ -1,6 +1,7 @@
 package web.controller;
 
 import web.service.*;
+import java.util.Locale;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,12 +17,9 @@ public class CarController {
     CarServiceImpl carService = new CarServiceImpl();
 
     @RequestMapping(value = "cars", method = RequestMethod.GET)
-    public String printCars(ModelMap model) {
+    public String printCars(Locale locale, ModelMap model) {
         List<Car> cars = carService.listCars();
         model.addAttribute("cars", cars);
         return "cars";
     }
-
-
-
 }
